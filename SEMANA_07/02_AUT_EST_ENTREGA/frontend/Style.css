@@ -1,0 +1,24 @@
+header{
+    text-align: center;
+    height: 20vh;
+    background-color: bisque;
+}
+
+container{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "a b"; 
+    text-align: center;
+}
+.formacaoExp{
+    background-color: aqua;
+    grid-area: a;
+}
+.sobreMim{
+    background-color:cadetblue;
+    grid-area: b;
+}

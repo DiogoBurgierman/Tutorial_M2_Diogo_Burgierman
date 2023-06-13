@@ -43,7 +43,7 @@ app.post('/insereUsuario', urlencodedParser, (req, res) => {
 		    throw err;
 		}	
 	});
-	res.write('<p>USUARIO INSERIDO COM SUCESSO!</p><a href="/">VOLTAR</a>');
+	res.write('<p>USUARIO INSERIDO COM SUCESSO!</p><a href="	">VOLTAR</a>');
 	db.close(); // Fecha o banco
 	res.end();
 });
